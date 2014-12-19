@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainView"
+    android:weightSum="1"
+    android:background="#FFFFFF">
+
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/mainLogo"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+    android:id="@+id/pickerBtn"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Which Scottish Legend    Are You?"
+    android:background="#ff5c1a80"
+    android:textColor="#ffffffff" />
+
+
+    <Button
+        android:id="@+id/feedsBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Visit Scotland Press Releases"
+        android:background="#ff5c1a80"
+        android:textColor="#ffffffff"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/mapsBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Scottish Landmarks"
+        android:background="#ff5c1a80"
+        android:textColor="#ffffffff"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/canvasBtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Find out Scotland's National flag"
+        android:background="#ff5c1a80"
+        android:textColor="#ffffffff" />
+
+    </LinearLayout>
