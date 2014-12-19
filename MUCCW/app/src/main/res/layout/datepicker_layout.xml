@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/mainLogo"
+        android:src="@drawable/ic_logo"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter your Date of Birth to find out which Legend you are!"
+        android:id="@+id/promptLbl"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.23" />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePickerBDay"
+        android:calendarViewShown="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submitBtn"
+        android:layout_below="@+id/datePickerBDay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff5c1a80"
+        android:textColor="#ffffffff"/>
+
+</LinearLayout>
+      
